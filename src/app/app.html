@@ -97,35 +97,23 @@
     <!-- Proyectos -->
     <section class="projects-info" aria-labelledby='projects-info-title'>
       <h2 id='projects-info-title' class="title yellow-neon">Proyectos</h2>
-      <ul>
-        <li>
-          <article>
-            <h3 class="cyan-neon">Sistema Web de monitoreo meteorológico</h3>
-            <p>
-              Sistema creado en <span class='text-red-neon'>laravel</span> para la lectura en tiempo real de variables meteorológicas (temperatura, precipitación pluvial, humedad relativa y luminosidad) en el
-              municipio de Coripata.
-            </p>
-          </article>
-        </li>
-        <li>
-          <article>
-            <h3 class="cyan-neon">Sistema de rockola</h3>
-            <p>
-              Plataforma realizada en <span class="text-red-neon">python</span> para la reproducción de contenido .mp3 en rockolas basadas
-              microcontrolador <span class="text-red-neon">raspberry pi zero</span> en salas recreativas en la ciudad de Lima, Perú.
-            </p>
-          </article>
-        </li>
-        <li>
-          <article>
-            <h3 class="cyan-neon">Sistema de control de personal</h3>
-            <p>
-              Aplicación en <span class="text-red-neon">Nest JS</span> para la gestión de empleados(planilla y control de asistencia) en la empresa de
-              electrodomésticos Tecnomac.
-            </p>
-          </article>
-        </li>
-      </ul>
+
+    <ul>
+      <app-project-item
+        title="Sistema Web de monitoreo meteorológico"
+        description="Sistema creado en <span class='text-red-neon'>laravel</span> para la lectura en tiempo real de variables meteorológicas (temperatura, precipitación pluvial, humedad relativa y luminosidad) en el municipio de Coripata.">
+      </app-project-item>
+
+      <app-project-item
+        title="Sistema de rockola"
+        description="Plataforma realizada en <span class='text-red-neon'>python</span> para la reproducción de contenido .mp3 en rockolas basadas microcontrolador <span class='text-red-neon'>raspberry pi zero</span> en salas recreativas en la ciudad de Lima, Perú.">
+      </app-project-item>
+
+      <app-project-item
+        title="Sistema de control de personal"
+        description="Aplicación en <span class='text-red-neon'>Nest JS</span> para la gestión de empleados (planilla y control de asistencia) en la empresa de electrodomésticos Tecnomac.">
+      </app-project-item>
+    </ul>
     </section>
       <!-- Certificaciones -->
       <section class='certifications' aria-labelledby='certifications-info-title'>
