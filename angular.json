@@ -23,7 +23,8 @@
                 "input": "public"
               }
             ],
-            "styles": ["src/styles/styles.css", "src/styles/colors.css"]
+            "styles": ["src/styles/styles.css", "src/styles/colors.css"],
+            "baseHref": "/build-portafolio-angular/"
           },
           "configurations": {
             "production": {
